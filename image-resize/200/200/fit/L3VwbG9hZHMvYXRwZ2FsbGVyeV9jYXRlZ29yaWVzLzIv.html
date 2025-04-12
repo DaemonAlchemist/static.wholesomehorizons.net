@@ -1,0 +1,83 @@
+<br />
+<b>Warning</b>:  filesize(): stat failed for /var/www/wholesomehorizons.net/public/uploads/atpgallery_categories/2/ in <b>/var/www/wholesomehorizons.net/vendor/daemonalchemist/atp-core/src/ATPCore/Controller/ImageResizeController.php</b> on line <b>12</b><br />
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Wholesome Horizons Learning Center and Home Child Care (Bolingbrook)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		        <link href="/atp-core/css/redmond/jquery-ui-1.10.3.custom.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/style.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/img/favicon.ico?v=1" rel="shortcut icon" type="image/vnd.microsoft.icon">
+		        <script type="text/javascript" src="/atp-core/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/atp-core/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/atp-core/js/jquery.elastic.source.js"></script>
+<script type="text/javascript" src="/atp-core/js/mustache.js"></script>
+<script type="text/javascript" src="/atp-core/js/atp-template.js"></script>
+    </head>
+    <body id="">
+		<div id="page">
+			<header>
+				<nav>
+					<ul class="main-menu">
+<li><a href="/">Home</a></li>
+<li><a href="/our-center">Our Center</a></li>
+<li><a href="/our-curriculum">Our Curriculum</a></li>
+<li><a href="/our-staff">Our Staff</a></li>
+<li><a href="/wholesome-nutrition">Wholesome Nutrition</a></li>
+<li><a href="/parent-resources">Parent Resources</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/contact">Contact Us</a></li>
+</ul>
+				</nav>
+			</header>
+			<main>
+				<ul class="bread-crumbs"><li><a href="">Homepage</a></li>
+</ul>				<div id="page-content">
+					<h1>An error occurred</h1>
+<h2>An error occurred during execution; please try again later.</h2>
+
+
+<hr/>
+<h2>Additional information:</h2>
+<h3>Imagine\Exception\InvalidArgumentException</h3>
+<dl>
+    <dt>File:</dt>
+    <dd>
+        <pre class="prettyprint linenums">/var/www/wholesomehorizons.net/vendor/imagine/imagine/lib/Imagine/Image/AbstractImagine.php:67</pre>
+    </dd>
+    <dt>Message:</dt>
+    <dd>
+        <pre class="prettyprint linenums">File /var/www/wholesomehorizons.net/public/uploads/atpgallery_categories/2/ does not exist.</pre>
+    </dd>
+    <dt>Stack trace:</dt>
+    <dd>
+        <pre class="prettyprint linenums">#0 /var/www/wholesomehorizons.net/vendor/imagine/imagine/lib/Imagine/Gd/Imagine.php(86): Imagine\Image\AbstractImagine->checkPath('/var/www/wholes...')
+#1 /var/www/wholesomehorizons.net/vendor/daemonalchemist/atp-core/src/ATPCore/Controller/ImageResizeController.php(48): Imagine\Gd\Imagine->open('/var/www/wholes...')
+#2 /var/www/wholesomehorizons.net/vendor/zendframework/zend-mvc/src/Controller/AbstractActionController.php(83): ATPCore\Controller\ImageResizeController->indexAction()
+#3 /var/www/wholesomehorizons.net/vendor/daemonalchemist/atp-core/src/ATPCore/Controller/AbstractController.php(27): Zend\Mvc\Controller\AbstractActionController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#4 [internal function]: ATPCore\Controller\AbstractController->onDispatch(Object(Zend\Mvc\MvcEvent))
+#5 /var/www/wholesomehorizons.net/vendor/zendframework/zend-eventmanager/src/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#6 /var/www/wholesomehorizons.net/vendor/zendframework/zend-eventmanager/src/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#7 /var/www/wholesomehorizons.net/vendor/zendframework/zend-mvc/src/Controller/AbstractController.php(116): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#8 /var/www/wholesomehorizons.net/vendor/zendframework/zend-mvc/src/DispatchListener.php(113): Zend\Mvc\Controller\AbstractController->dispatch(Object(Zend\Http\PhpEnvironment\Request), Object(Zend\Http\PhpEnvironment\Response))
+#9 [internal function]: Zend\Mvc\DispatchListener->onDispatch(Object(Zend\Mvc\MvcEvent))
+#10 /var/www/wholesomehorizons.net/vendor/zendframework/zend-eventmanager/src/EventManager.php(468): call_user_func(Array, Object(Zend\Mvc\MvcEvent))
+#11 /var/www/wholesomehorizons.net/vendor/zendframework/zend-eventmanager/src/EventManager.php(207): Zend\EventManager\EventManager->triggerListeners('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#12 /var/www/wholesomehorizons.net/vendor/zendframework/zend-mvc/src/Application.php(313): Zend\EventManager\EventManager->trigger('dispatch', Object(Zend\Mvc\MvcEvent), Object(Closure))
+#13 /var/www/wholesomehorizons.net/public/index.php(7): Zend\Mvc\Application->run()
+#14 {main}</pre>
+    </dd>
+</dl>
+
+
+					<div style="clear: both;"></div>
+				</div>
+			</main>
+			<footer>
+				<p id="copyright">Copyright 2025</p>
+			</footer>
+					</div>
+    </body>
+</html>

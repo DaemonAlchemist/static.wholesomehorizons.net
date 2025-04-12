@@ -1,0 +1,312 @@
+.reset {
+ margin: 0 0 0 0;
+ padding: 0;
+ float: none;
+ box-sizing: border-box;
+ -mox-box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ line-height: 24px;
+ vertical-align: top;
+ text-align: justify;
+ color: #000000;
+ border: none;
+ border-width: 0;
+ border-image-width: 0;
+ border-spacing: 0;
+}
+* {
+ margin: 0 0 0 0;
+ padding: 0;
+ float: none;
+ box-sizing: border-box;
+ -mox-box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+ line-height: 24px;
+ vertical-align: top;
+ text-align: justify;
+ color: #000000;
+ border: none;
+ border-width: 0;
+ border-image-width: 0;
+ border-spacing: 0;
+}
+ul,
+ol {
+ display: block;
+ list-style-type: none;
+}
+select {
+ height: 24px;
+}
+a {
+ text-decoration: none;
+}
+body {
+ background: url('../img/site-background.png') #db3937;
+ background-position: center;
+ background-attachment: fixed;
+ background-repeat: repeat-y;
+}
+body * {
+ color: #081e1d;
+ font-family: "Georgia", serif;
+}
+div#page {
+ background: #ffffff;
+ width: 1024px;
+ margin: auto;
+}
+header {
+ padding-top: 83px;
+ background: url(../images/header-background.png);
+}
+header nav ul.main-menu {
+ width: 100%;
+ background: #33beb7;
+ height: 2em;
+ border-top: solid 1px;
+ border-bottom: solid 1px;
+}
+header nav ul.main-menu li {
+ float: left;
+ padding: 4px 8px;
+ text-align: center;
+ height: 100%;
+ margin: 0 4px;
+}
+header nav ul.main-menu li a {
+ text-transform: uppercase;
+ font-size: 8pt;
+ font-weight: bold;
+}
+header nav ul.main-menu li:first-child {
+ margin-left: 0;
+ margin-top: -52px;
+ width: 90px;
+ height: 79px;
+ background: url('../img/logo-small.png');
+ text-indent: -99999px;
+}
+header nav ul.main-menu li:first-child a {
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+body#homepage header {
+ padding-top: 435px;
+ background: url(../img/main-banner.png);
+}
+body#homepage header nav ul.main-menu li:first-child {
+ background: none;
+}
+div.static-block.homepage-top p {
+ padding: 8px;
+}
+div.static-block.homepage-left {
+ float: left;
+ width: 33%;
+ padding: 8px;
+}
+div.static-block.homepage-right {
+ float: left;
+ width: 66%;
+ padding: 16px;
+}
+main {
+ padding: 4px;
+ background: url('../images/page-background-top.png') top no-repeat, url('../images/page-background-bottom.png') bottom no-repeat;
+}
+main ul.bread-crumbs {
+ display: none;
+ margin: 8px;
+}
+main ul.bread-crumbs li {
+ float: left;
+ font-size: small;
+ margin-bottom: 8px;
+}
+main ul.bread-crumbs li a {
+ font-size: small;
+}
+main ul.bread-crumbs li a:hover {
+ text-decoration: underline;
+}
+main ul.bread-crumbs li:after {
+ content: ">";
+ padding: 0 8px;
+}
+main ul.bread-crumbs li:last-child:after {
+ content: "";
+ padding: 0;
+}
+main h1 {
+ font-size: x-large;
+ clear: left;
+ margin: 8px;
+ border-bottom: solid 2px;
+ text-shadow: -2px -2px 0 #abefec, 2px -2px 0 #abefec, -2px 2px 0 #abefec, 2px 2px 0 #abefec;
+}
+main div#page-content {
+ clear: left;
+ padding-right: 8px;
+}
+main div#page-content a {
+ color: #0000ff;
+ text-decoration: underline;
+}
+main div#page-content div.cms-page-content p {
+ margin-bottom: 16px;
+}
+main div#page-content div.cms-page-content img {
+ float: left;
+ clear: both;
+ margin: 8px;
+ border: solid 4px;
+}
+main div#page-content ul.cms-page-list {
+ margin: 8px;
+}
+main div#page-content ul.cms-page-list li {
+ margin-bottom: 32px;
+ position: relative;
+ background: url('../uploads/atpcms_images/25/ButterflySeparator.png');
+ background-position: center bottom;
+ background-repeat: no-repeat;
+ padding-bottom: 70px;
+}
+main div#page-content ul.cms-page-list li div.cms-page-preview {
+ border-top: dashed 1px;
+}
+main div#page-content ul.cms-page-list li div.cms-post-date {
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+main div#page-content iframe {
+ border: solid 1px !important;
+}
+main div#page-content hr {
+ height: 39px;
+ background: url('../uploads/atpcms_images/25/ButterflySeparator.png');
+ background-position: center;
+ background-repeat: no-repeat;
+}
+div#cms-page-our-center h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/19/OurCenter_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-page-our-center p.cms-post-date {
+ display: none;
+}
+div#cms-page-our-curriculum h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/20/OurCurriculum_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-page-our-curriculum p.cms-post-date {
+ display: none;
+}
+div#cms-page-our-staff h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/21/OurStaff_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-page-our-staff p.cms-post-date {
+ display: none;
+}
+div#cms-page-wholesome-nutrition h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/23/WholesomeNutrition_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-page-wholesome-nutrition p.cms-post-date {
+ display: none;
+}
+div#cms-page-parent-resources h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/22/ParentResouces_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-page-parent-resources p.cms-post-date {
+ display: none;
+}
+div#cms-category-blog h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/16/Blog_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#cms-category-blog p.cms-post-date {
+ display: none;
+}
+div#contact-us h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/17/ContactUs_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#contact-us p.cms-post-date {
+ display: none;
+}
+div#gallery-main h1 {
+ border: none;
+ background: url('../uploads/atpcms_images/18/Gallery_dotCenter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 63px;
+ text-indent: -99999px;
+ margin: 32px 0;
+}
+div#gallery-main p.cms-post-date {
+ display: none;
+}
+div#cms-page-our-curriculum p,
+div#cms-page-our-staff p {
+ margin-left: 332px;
+}
+div#cms-page-our-curriculum hr,
+div#cms-page-our-staff hr {
+ width: 680px;
+ float: right;
+}
+footer {
+ clear: both;
+ height: 40px;
+ border-top: solid 4px #33beb7;
+ padding: 4px;
+ background: url('../uploads/atpcms_images/24/ButterflyFooter.png');
+ background-position: center;
+ background-repeat: no-repeat;
+}
+footer p#copyright {
+ text-align: center;
+}
